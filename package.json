@@ -1,9 +1,9 @@
 {
   "name": "@archmagefi/eslint-config",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Common eslint config for Vue3 + Typescript + Prettier projects.",
   "main": "index.js",
-  "author": "",
+  "author": "hmmdeif",
   "license": "MIT",
   "devDependencies": {
     "eslint": "8.13.0",
@@ -15,5 +15,9 @@
     "@vue/eslint-config-prettier": "7.0.0",
     "@vue/eslint-config-typescript": "10.0.0",
     "eslint-plugin-vue": "8.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Archmage-Finance/eslint-config.git"
   }
 }

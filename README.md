@@ -4,7 +4,7 @@ Common eslint config for Vue3 + Typescript + Prettier projects.
 
 ## Install
 
-`npm i -D eslint typescript prettier @archmagefi/eslint-config.
+`npm i -D eslint typescript prettier @archmagefi/eslint-config`.
 
 ## Extend .eslintrc.js
 
@@ -31,3 +31,9 @@ Add following line to `scripts` section in package.json.
 `"lint": "eslint --ext .ts,vue --ignore-path .gitignore . --fix"`
 
 Then run `npm run lint`.
+
+## Publish to npm
+
+`npm login`
+
+`npm publish --access public`
