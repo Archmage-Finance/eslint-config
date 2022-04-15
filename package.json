@@ -12,6 +12,8 @@
   "dependencies": {
     "@rushstack/eslint-config": "2.5.4",
     "@rushstack/eslint-patch": "1.1.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
     "eslint-plugin-vue": "8.6.0"
   }
 }
