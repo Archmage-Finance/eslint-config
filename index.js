@@ -11,6 +11,9 @@ module.exports = {
         "@rushstack/eslint-config/profile/web-app",
         "plugin:vue/vue3-recommended",
     ],
+    parserOptions: {
+        project: './tsconfig.json'
+    },
     rules: {
         "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
         "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
