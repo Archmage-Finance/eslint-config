@@ -1,6 +1,6 @@
 {
   "name": "@archmagefi/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common eslint config for Vue3 + Typescript + Prettier projects.",
   "main": "index.js",
   "author": "hmmdeif",

@@ -10,13 +10,13 @@ Common eslint config for Vue3 + Typescript + Prettier projects.
 
 ```
 /* eslint-env node */
-require("@archmage/eslint-config")
+require("@archmagefi/eslint-config")
 
 // Prettier/prettier rule is optional and uses your local .prettierrc file
 module.exports = {
     root: true,
     extends: [
-        "@archmage/eslint-config",
+        "@archmagefi/eslint-config",
     ],
     rules: {
         "prettier/prettier": ["error", {}, { usePrettierrc: true }],
