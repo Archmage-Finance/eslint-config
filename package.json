@@ -1,0 +1,19 @@
+{
+  "name": "@archmage/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@rushstack/eslint-config": "^2.5.4",
+    "@rushstack/eslint-patch": "^1.1.3"
+  }
+}
